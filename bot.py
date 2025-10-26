@@ -9,7 +9,6 @@ CHAT_ID = '-1002086107811'
 
 # آخر درجة تم إرسالها
 last_degree = None
-
 def calculate_sun_degree():
     """حساب درجة الشمس الفلكية"""
     now = datetime.now()
