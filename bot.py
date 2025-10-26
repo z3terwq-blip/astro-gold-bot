@@ -17,7 +17,7 @@ def calculate_sun_degree():
     day_of_year = (now - start_of_year).days
     
     # حساب الدرجة (الشمس تتحرك حوالي 0.9856 درجة في اليوم)
-    degree = ((day_of_year * 0.9856) + 280) % 360
+   degree = ((day_of_year * 0.9856) + 278) % 360
     return round(degree)
 
 def degree_to_price(degree):
