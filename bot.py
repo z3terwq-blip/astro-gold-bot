@@ -17,7 +17,7 @@ def calculate_sun_degree():
     day_of_year = (now - start_of_year).days
     
     # حساب الدرجة (معدلة للدقة)
-    degree = ((day_of_year * 0.9856) + 278) % 360
+    degree = ((day_of_year * 0.9856) + 279) % 360
     return round(degree)
 
 def degree_to_price(degree):
